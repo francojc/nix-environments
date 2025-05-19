@@ -46,15 +46,12 @@
         ]);
 
       # TeX Live packages for Quarto rendering
-      texlivePackages = {
-        inherit
-          (pkgs.texlive)
-          scheme-medium
-          fancyhdr
-          geometry
-          hyperref
-          ;
-      };
+      texlivePackages = with pkgs.texlive; [
+        (combine {
+          inherit scheme-small;
+          # Add additional texlive packages here if needed
+        })
+      ];
 
       # Combine all package lists
       allPackages = packages ++ rPackages ++ [pythonEnv] ++ texlivePackages;
