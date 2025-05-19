@@ -1,46 +1,42 @@
 {
-  description = "An R programming environment";
+  description = "A collection of project templates managed by Nix flakes";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github.com/numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs, flake-utils }:
+  outputs = {
+    self,
+    nixpkgs,
+    flake-utils,
+  }:
     flake-utils.lib.eachDefaultSystem (system: let
-      pkgs = import nixpkgs { inherit system; };
-
-      # Define general development packages
-      packages = with pkgs; [
-        R
-        radianWrapper
-        pandoc
-        quarto
-      ];
-
-      # R packages using rPackages overlay
-      rPackages = with pkgs.rPackages; [
-        tidyverse
-        quanteda
-        skimr
-      ];
-
-      # TeX Live packages for Quarto rendering
-      texlivePackages = with pkgs.texlive.combined.scheme-full; [
-        scheme-full
-      ];
-
-      # Combine all package lists
-      allPackages = packages ++ rPackages ++ texlivePackages;
-
+      pkgs = import nixpkgs {inherit system;};
     in {
+      # Define the available templates
+      templates = {
+        default = {
+          description = "An R programming environment template";
+          path = ./templates/default;
+        };
+        # Add other templates here as they are created
+      };
+
+      # Define a default development shell for the root of the repository
       devShell = pkgs.mkShell {
-        buildInputs = allPackages; # Use allPackages as input to the development shell
+        packages = with pkgs; [
+          alejandra
+          git
+          nurl
+          shellcheck
+          tree
+        ];
         shellHook = ''
-          echo "R development environment activated"
-          # R environment setup
-          export R_LIBS_USER=$PWD/R/Library;
-          mkdir -p "$R_LIBS_USER";
+          echo "Template management environment activated"
+          echo "Available templates:"
+          echo "- default: An R programming environment template"
+          echo "To create a new project from a template, navigate to the desired directory and run 'nix flake init -t github:your-username/your-repo#template-name'"
         '';
       };
     });
