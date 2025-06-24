@@ -17,7 +17,10 @@
         description = "An R programming environment template";
         path = ./templates/default;
       };
-      # Add other templates here as they are created
+      r-quarto = {
+        description = "An R programming environment with Quarto website scaffolding";
+        path = ./templates/r-quarto;
+      };
     };
   in
     flake-utils.lib.eachDefaultSystem (system: let
@@ -36,6 +39,7 @@
           echo "Template management environment activated"
           echo "Available templates:"
           echo "- default: An R programming environment template"
+          echo "- r-quarto: An R programming environment with Quarto website scaffolding"
           echo "To create a new project from a template, navigate to the desired directory and run 'nix flake init -t github:francojc/nix-environments#template-name'"
         '';
       };

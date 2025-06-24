@@ -7,13 +7,24 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 This repository provides reproducible development environment templates managed by Nix flakes. It currently contains:
 
 - A root flake that manages the templates
-- Templates for different development environments (currently only `default` for R)
+- Templates for different development environments:
+  - `default`: R programming environment with data science tools
+  - `r-quarto`: R programming environment with automatic Quarto website scaffolding
 
 ## Commands
 
 ### Template Management Environment
 
 From the repository root:
+
+**With direnv** (recommended):
+```bash
+# First time setup
+echo "use flake ." > .envrc
+direnv allow  # Environment will auto-load when entering directory
+```
+
+**Without direnv**:
 ```bash
 nix develop  # Enter template management shell with linting and formatting tools
 ```
@@ -30,7 +41,13 @@ shellcheck <script>  # Lint shell scripts
 To test a template locally:
 ```bash
 cd /tmp/test-project
-nix flake init -t /path/to/nix-environments#default
+nix flake init -t /path/to/nix-environments#default  # or #r-quarto
+
+# With direnv:
+echo "use flake ." > .envrc
+direnv allow
+
+# Without direnv:
 nix develop
 ```
 

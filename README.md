@@ -4,9 +4,11 @@ This repository provides a collection of reproducible development environment te
 
 ## Available Templates
 
-Currently, the following template is available:
+Currently, the following templates are available:
 
 -   **default**: An R programming environment template. This template includes R, common R packages for data science, a Python environment with data science libraries, and tools for working with Quarto.
+
+-   **r-quarto**: An R programming environment with Quarto website scaffolding. This template includes everything from the default template plus automatic initialization of a Quarto website project structure.
 
 More templates may be added in the future.
 
