@@ -1,0 +1,44 @@
+/* css styles */
+
+.halfsize {
+  width: 50%;
+  float: right;
+  margin-left: 1.5em;
+  margin-top: .5em;
+}
+
+/* rounded corners */
+.plan {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1em 1em 0em 1em;
+  margin: 1em;
+}
+
+h4 {
+  margin: 0em;
+  padding: 0em;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/* float divs with 'right' class to the right */
+.right {
+  float: right;
+  margin-left: 1em;
+}
+
+/* float divs with 'left' class to the left */
+.left {
+  float: left;
+  margin-right: 1em;
+}
+
+.activity-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1em 1em 0em 1em;
+  margin: 1em;
+}

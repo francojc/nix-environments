@@ -1,0 +1,27 @@
+author: Dr. Carmen García
+instructor:
+  name: Dr. Carmen García
+  name_short: Carmen
+  title: Profesora Asociada de [Departamento]
+  email: instructor@university.edu
+  office: '[Edificio] [Número de Oficina]'
+  appointment_url: 'https://cal.com/instructor/meeting'
+  photo: assets/instructor-photo.jpg
+  github: instructor-github
+course:
+  title: '[CÓDIGO DEL CURSO]'
+  description: '[Título del Curso]'
+  sticker: assets/course-sticker.png
+  number: '[XXX]'
+  semester: '[Semestre]'
+  year: [AÑO]
+  institute: '[Nombre de la Universidad]'
+  meeting_time: '[Días] [Hora]'
+  meeting_location: '[Edificio] [Aula]'
+  web: 'https://[username].github.io/[repo-name]/'
+  github: https://github.com/[username]/[repo-name]/
+canvas:
+  course: https://[university].instructure.com/courses/[COURSE_ID]/
+  eval_01: https://[university].instructure.com/courses/[COURSE_ID]/assignments/[ASSIGNMENT_ID]
+  ice_01: https://[university].instructure.com/courses/[COURSE_ID]/assignments/[ASSIGNMENT_ID]
+  entrevista_01: https://[university].instructure.com/courses/[COURSE_ID]/assignments/[ASSIGNMENT_ID]

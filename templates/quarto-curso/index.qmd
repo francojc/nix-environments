@@ -1,0 +1,235 @@
+---
+title: "{{< fa handshake >}} Programa"
+subtitle: "[CÓDIGO DEL CURSO]: [Título del Curso]"
+date: today
+language:
+  title-block-published: "Actualizado"
+bibliography: references.bib
+---
+
+<!-- 
+INFO:
+- [ ] Activity idea: have students create grammar tutorials in videos for Canvas. After they submit, then they select a peer's video to either choose as the best explanation or .... (idea not completely formed yet). The notion is that by 'teaching' the grammar concept, they will learn it better. 
+- [ ] ...
+-->
+
+## Instructor
+
+![]({{< var instructor.photo >}}){style="float: right; margin-right: 1em;" width="150px"}
+
+Instructor: {{< var instructor.name >}} \
+Email: {{< var instructor.email >}} \
+Office: {{< var instructor.office >}} \
+Appointments: <a href='{{< var instructor.appointment_url >}}' target="_blank">{{< fa calendar >}}</a>
+
+## I. Course Description
+
+Through the study of authentic texts, films, and other media, this course introduces students to advanced grammar concepts and fosters the development of advanced proficiency in speaking, listening, reading, and writing. Students will engage critically with cultural, historical, and social issues across the Spanish-speaking world. Complementing this focus on language and culture, the course will explore a diverse set of contemporary Spanish-language varieties, including regionalisms, register distinctions, and variations related to sociolinguistic context. The course will be conducted entirely in Spanish.
+
+<!-- This course introduces students to advanced grammar concepts through the study of authentic texts, films, and other media. Students will make progress towards advanced proficiency in speaking, listening, reading, and writing, while engaging critically with cultural, historical, and social issues across the Spanish-speaking world. This attention to the Spanish language will be complemented by exposure to a diverse set of contemporary Spanish-language varieties, including regionalisms, register distinctions, and other variations related to sociolinguistic context. The course will be conducted entirely in Spanish. -->
+
+- Prerequisites: SPA 208/280L or placement, or instructor approval.
+- Satisfies Major/Minor requirements in Spanish.
+
+## II. Objectives
+
+Upon successful completion of this course, students will be able to:
+
+- Interpret and summarize the main ideas and provide supporting details in authentic readings, films, and songs related to themes such as environment, sports, globalization, poverty, immigration, human rights, war, and feminism. (Interpretive communication)
+- Participate in spontaneous conversations and prepared debates on course topics, expressing opinions, narrating events, and asking follow-up questions using appropriate vocabulary and structures. (Interpersonal Communication)
+- Write well-organized essays, blog entries, letters, and reviews on course themes, demonstrating control of  grammar at this level (*e.g.*, indicative vs. subjunctive mood, perfect tenses, relative pronouns, *por/para*), vocabulary, and cultural references. (Presentational communication)
+- Deliver clear and coherent oral presentations (individual or group) on cultural, social, or literary topics, integrating evidence from course materials. (Presentational communication)
+- Identify and contextualize examples of language variation (*e.g.*, regionalisms, register, sociolinguistic context) encountered in readings and media. (Language analysis)
+
+Note: the target language proficiency level for this course is ACTFL Intermediate-High. For more information on this proficiency scale, see the [ACTFL Proficiency Guidelines](https://www.actfl.org/uploads/files/general/Resources-Publications/ACTFL_Proficiency_Guidelines_2024.pdf).
+
+## III. Materials
+
+Textbook: 
+
+Hertel, T. J., & Harrington, S. (2016). El cine documental: Spanish Language and Culture through Documentary Film. Hackett Publishing Company, Inc. https://hackettpublishing.com/el-cine-documental [@Hertel2016] \
+Companion online workbook: <https://hackettpublishing.com/el-cine-documental> \
+(*Required*: Access needed for online homework activities.) Additional readings and resources will be provided on the [course website](https://[username].github.io/[repo-name]/).
+
+Site:  
+
+[Course](https://[username].github.io/[repo-name]/) \
+[Canvas](https://[university].instructure.com/courses/[COURSE_ID]) \
+
+## IV. Evaluation
+
+| Assignment | Percentage | Description |
+|------------|------------|-------------|
+| Daily preparation | 10% | Pre-class activities, semi-regularly (e.g. Lingro online activities) | 
+| Journal entries | 10% | Unit-based journal entries reflecting on course themes and materials. (8x) |
+| Rountable leader | 10% | Individual presentation on a selected topic related to course themes. (2x) |
+| Poster session | 10% | Individual or group poster presentation on a course theme. (2x) |
+| Participation | 20% | Class participation and attendance. |
+| Midterm exam | 20% | In-class exam covering grammar, vocabulary, and course themes. |
+| Final exam | 20% | Comprehensive in-class exam covering grammar, vocabulary, and course themes. |
+
+See the [Rubrics section](#rubrics) for details on how each assignment will be evaluated.
+
+The grading scale adopted by the Department of Spanish is as follows: \
+  93-100=A, 90-92=A-, 88-89=B+, 83-87=B, 80-82=B-, 78-79=C+, 73-77=C, 70-72=C-, 68-9=D+, 63-67=D, 60-62=D-, <60=F.
+
+**Professionalism**:
+
+Your professionalism is essential in this course. This means arriving prepared, participating actively, and respecting classmates, and the instructor. Use a professional tone in all communications, including email, and allow 24 hours for responses.
+
+You are responsible for preparing assigned material before each class. All deadlines are in the class schedule. Late assignments are penalized 10% per day.  
+
+If you need help with the material, please reach out to me promptly during office hours or by appointment.
+
+### Daily preparation
+
+<!-- TODO: elaborate on the online activities included with the textbook: what are they, how to access them, why they are important, etc. -->
+
+<!--
+These will be short 5-question quizzes that aim to be general and ensure that you are keeping up with the readings. They will be given at the beginning of class and will be completed on Canvas. These cannot be made up, but the lowest three grades will be dropped from your final grade. -->
+
+### Journal entries
+
+*Weekly* journal entries reflecting on course themes and materials. Each entry should be within 150-250 words and respond to instructor-provided prompts. In these entries, you will practice presentational writing skills and apply recently covered vocabulary and grammar, connecting to course themes.
+
+<!-- The goal is to provide you a low-stakes opportunity to practice writing in Spanish and receive feedback on your language use. You will be graded on the implementation of the target grammar, vocabuarly, and the depth of your reflection --not on accuracy. -->
+
+### Roundtable leaders
+
+Roundtable leaders will be assigned *at the outset of the semester* to lead discussions on selected topics related to course themes. Each group will prepare a presentation and facilitate a class discussion, developing both presentational and interpersonal communication skills. Presentations should be 15-20 minutes long and include visual aids.
+
+<!--
+The goal is to provide an opportunity for students to prepare for and lead an informative small-group discussion. These discussions will serve the presenters as a way to practice their presentational skills and the rest of the class as a way to practice their interpersonal skills. In particular, these rountable aim to engage students in more realistic face-to-face conversations.
+-->
+
+### Poster session
+
+The poster session involves creating and presenting a poster on a course theme. This assignment develops presentational communication skills (both visual and oral) as you explain your research and findings to peers. 
+
+<!-- 
+The goal is to provide an opportunity for students to prepare and present a visual representation of their research. This assignment will serve the presenters as a way to practice their presentational skills and the rest of the class as a way to practice their interpersonal skills. In particular, these posters aim to engage students in more realistic face-to-face conversations. 
+-->
+
+### Participation
+
+Class participation is essential for success in this course and will be assessed based on instructor observation of your contributions. Actively engaging in discussions, asking questions, contributing to group activities, and *willingness to take linguistic risks (even if you make mistakes)* directly develops your interpersonal communication skills and reinforces interpretive understanding. Language is a communicative skill—the more you participate, the more you learn.
+
+### Exams
+
+**Mid-term**: The midterm exam assesses your understanding of grammar, vocabulary, and course themes from the first half of the semester through various formats (e.g., multiple-choice, short answer, essay), evaluating interpretive skills and presentational writing.
+
+**Final exam**: The comprehensive final exam covers all course material using similar formats to the midterm. It serves as a summative assessment of your interpretive skills, language analysis abilities, and presentational writing proficiency developed throughout the course.
+
+## V. Course Approach
+
+**Pedagogical Approach:**\
+The course uses a communicative, content-based approach, integrating language and culture through authentic materials and real-world tasks. Class sessions will be interactive, with a mix of instructor- and student-led activities.
+
+**Major Units/Themes:**\
+Based on the textbook outline, major themes include:
+
+1. The Environment
+1. Sports
+1. Globalization
+1. Poverty, Hope, and Dreams
+1. Immigration
+1. Human Rights
+1. War and Peace
+1. Feminism
+
+**Typical Class Session Structure (75 mins):**
+
+- Recap/ Q&A
+- Mini-lecture or guided analysis
+- Small group or pair work
+- Whole-class discussion
+- Language focus activity (grammar, vocabulary)
+- Wrap-up/ preview
+
+**Types of Learning Activities:**
+
+- Instructor-led: Mini-lectures, guided analysis, Q&A, etc. 
+- Student-led: Presentations (posters), leading discussion sections (roundtable leaders), etc. 
+- Interactive: Debates, role-playing, think-pair-share, etc. 
+- Collaborative: Small group work, peer review, group projects, etc.
+- Individual: Reading, writing, research, reflection
+
+**Accessibility & Inclusion:**
+
+I am committed to developing and supporting an ongoing environment that serves students from all diverse backgrounds and where diversity is viewed as a resource, strength, and benefit to our learning community. It is my goal to present materials and provide options for activities that are respectful to gender, sexuality, disability, age, socioeconomic status, ethnicity, race, and culture. Despite my best efforts, there may still be ways to improve the effectiveness of this course for you personally or for other students or student groups. Your suggestions for improvement are encouraged and appreciated. 
+
+## VI. Additional Information
+
+**The Honor Code (from the [University Name] Bulletin)**
+
+[Nombre de la Universidad] upholds the ideals of honor and integrity. The Honor System is central to University life; its essence is a commitment by each person to do what is right and abide by community standards. Each student is pledged to be trustworthy in all matters, and a violation of that trust is an offense against the community as a whole. In the specific terms of the Honor Code, a student pledges in all phases of life not to cheat, plagiarize, engage in other forms of academic misconduct, deceive, or steal. The strength of the Honor System derives from the commitment of each and every student to uphold its ideals.
+
+**The Honor Code as it applies to this course**
+
+Certain homework assignments in this course will be written outside of class. You may be tempted to use web-based tools such as AI, grammar checks, and online translators. However, the purpose of these low-stakes assignments is to help you practice the current grammar and vocabulary and receive feedback from your instructor before you are tested on the material. Using these tools can prevent your progress toward proficiency and success in future Spanish courses. Also, be aware that these tools will not be available to you during in-class assessments, and approximately **90% of your grade in this course will be based on in-class assessment**. The goal of this course is to teach you *human skills* that AI doesn’t have; the ability to speak and write Spanish *yourself*, and the ability to feel confident in your *own* voice and writing process.
+
+For these reasons, **any work to be turned in for this course for a grade, including homework, must be your own individual work.** Unless otherwise indicated, you may use your textbooks, a dictionary, or ask me. You may receive no help (no tutors, no friends, no translators [human-, machine-, or web-based]) in the preparation of your compositions or other written work. The ideas and the language must all be your own. **Any sign of collaboration, plagiarism, or other unauthorized assistance will be regarded as cheating and may be turned in to the Honor and Ethics Council for investigation.** If you are not sure if something constitutes inappropriate assistance on an assignment, please ask me for clarification.
+
+Note: GoogleTranslate and other electronic translators are never acceptable, even to look up a single word. You must use a language dictionary. Electronic translators are NOT dictionaries and do not understand the shades of meaning that a human being does. For example, a ‘cast’ may be a remedy for a broken arm, a group of actors in a play, or the action of tossing a fishing line. A translation program will not see the difference. You MUST use a language dictionary, which offers various options depending on the context. [wordreference.com](https://wordreference.com) is an acceptable online dictionary. [linguee.com](https://www.linguee.com/english-spanish) is also a good resource for finding examples of words in context.
+
+**Class Attendance**
+
+Students are allowed **three** no-questions-asked absences. Every absence after that will lower your **final course grade** by 1 point. Three tardy arrivals to class will count as one absence.
+
+If you have an anticipated absence that fits the excused criteria, you must speak to me within the first two weeks of classes and provide the necessary documentation.
+
+**Emergencies**
+
+In the event of an emergency such as a pandemic crisis or natural disaster that prevents classes from meeting regularly, students will be expected to continue their coursework to the best of their ability. If the University should close, Canvas will be the main source of information for the course. I will be available via email and U.S. mail. In the event that Internet access is limited and U.S. mail is the only method for contact, you will be provided with complete access information for me at home, including phone numbers. The syllabus may be adjusted for individuals who were absent, or for the entire class if dismissed by closing.
+
+**Classroom etiquette**
+
+The Department of Spanish has a policy of no eating, drinking, chewing gum, or smoking in the classroom. Cell phones or any other sound-making devices must be **turned off** during the whole class period and stored in your backpack or purse. Please take care of any personal needs (using the bathroom, filling water bottles) **before** class begins.
+
+**Announcement from the Office of the Dean**
+
+If you have a disability that may require an accommodation for taking this course, please contact the [Accessibility Services Office] ([phone-number]) within the first two weeks of the semester.
+
+## VII. Rubrics {#rubrics}
+
+### Participation
+
+| Criteria                  | Exceeds (5 pts)                                                             | Meets (4-3 pts)                                                                  | Below (2, 1)                                                                          |
+| :------------------------ | :--------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------- |
+| **Frequency & Initiative** | Consistently and proactively contributes thoughtful comments, questions, volunteers answers/reading. A clear leader in discussions. | Regularly contributes comments/questions when called upon, occasionally volunteers. Participates willingly. | Rarely contributes, even when prompted. Seems reluctant to participate.                               |
+| **Quality of Contribution** | Contributions are insightful, advance the discussion, demonstrate critical thinking, and connect clearly to course material. | Contributions are relevant and generally demonstrate understanding of the material.             | Contributions are often irrelevant, superficial, or indicate lack of preparation.                    |
+| **Use of Spanish**        | Almost exclusively uses Spanish for all interactions (class, pair/group), making effort even when unsure. Takes linguistic risks. | Primarily uses Spanish, especially for required tasks. May revert to English occasionally in complex group work. | Frequently relies on English, even for simple interactions. Makes little effort to use Spanish. |
+| **Preparation**           | Consistently demonstrates thorough preparation through insightful contributions and readiness for activities. | Usually prepared for class activities, having completed assigned readings/tasks.               | Often unprepared, evidenced by lack of contribution or inability to participate in activities. |
+| **Active Listening/Respect** | Actively listens to peers and instructor, responds thoughtfully, respects diverse viewpoints, and fosters a positive environment. | Listens attentively and respectfully. Generally interacts positively with peers.             | Often disengaged, distracts others, interrupts, or dismisses alternative viewpoints.            |
+| **Attendance**            | Attends all classes or follows absence policy correctly (max 3 absences). Always punctual. | Meets attendance requirements (max 3 absences). Usually punctual.                         | Exceeds allowed absences and/or frequently late without valid reason.                          |
+
+### Journal entries
+
+| Criteria                          | Exceeds (5 pts)                                                                                             | Meets (4-3 pts)                                                                                                                                | Below (2, 1)                                                                                                                                                     |
+| :-------------------------------- | :---------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Content & Reflection**          | Thoroughly addresses the prompt; demonstrates insightful reflection and connections to course themes/materials. | Addresses the prompt adequately to well; reflection is present and generally connects to course themes/materials, though depth may vary.              | Partially or minimally addresses the prompt; reflection is superficial, disconnected, or absent; may misunderstand the prompt.                                      |
+| **Organization & Development**    | Logically structured; ideas are well-developed, supported, flow coherently, and meet length guidelines.        | Generally well-organized; ideas are mostly developed and supported with adequate flow; generally meets length guidelines, though may be slightly off. | Poorly organized or lacks clear structure; ideas are underdeveloped/unsupported; incoherent flow; length guidelines significantly missed or disregarded.              |
+| **Application of Target Grammar/Vocab** | Effectively integrates and correctly uses relevant target grammar/vocabulary from recent lessons.           | Attempts to integrate target grammar/vocabulary; usage is mostly correct or contains some errors that only slightly affect meaning.                 | Limited attempt or failure to integrate target grammar/vocabulary; usage contains frequent errors that impede understanding or show fundamental misunderstanding. |
+| **Language Accuracy & Range**     | Uses a wide range of grammar/vocabulary accurately; errors are minimal and do not impede comprehension.     | Uses adequate grammar/vocabulary with reasonable accuracy; errors may occasionally impede comprehension.                                            | Uses limited grammar/vocabulary; frequent/pervasive errors significantly impede or prevent comprehension.                                                          |
+
+### Roundtable leaders
+
+| Criteria                                | Exceeds (5 pts)                                                                                                                               | Meets (4-3 pts)                                                                                                                                       | Below (2, 1)                                                                                                                                                       |
+| :-------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Content & Organization (Presentation)** | Content is highly accurate, insightful, directly relevant, and well-organized; demonstrates deep understanding of the theme.                 | Content is mostly accurate, relevant, and adequately organized; shows good to adequate understanding of the theme.                                    | Content has significant inaccuracies, lacks relevance, is poorly organized, or shows superficial/minimal understanding.                                |
+| **Delivery & Language Use (Presentation)** | Delivery is exceptionally clear, engaging, and confident; language is consistently accurate, complex, and fluent; within time limits.        | Delivery is adequately clear and engaging; language is generally comprehensible with adequate fluency/accuracy and range; generally within time limits. | Delivery is unclear or disengaging; frequent language errors impede comprehension or language is overly simplistic; significantly deviates from time limit. |
+| **Visual Aids**                         | Visual aids are professional, highly effective, clear, directly support content, and enhance understanding.                             | Visual aids are clear, relevant, and adequately support the presentation, though may lack polish.                                                | Visual aids are unclear, irrelevant, distracting, poorly designed, absent, or offer little support.                                                   |
+| **Discussion Facilitation**             | Expertly facilitates discussion with insightful questions; actively engages peers; manages time effectively; responds thoughtfully in Spanish. | Adequately to effectively facilitates discussion with appropriate questions; encourages participation; manages time reasonably well; responds mostly in Spanish. | Struggles to facilitate or makes little attempt; questions are superficial/absent; minimal engagement; poor time management; heavy reliance on English or ineffective communication. |
+
+
+### Poster session
+
+| Criteria                     | Exceeds (5 pts)                                                                                                                            | Meets (4-3 pts)                                                                                                                                    | Below (2, 1)                                                                                                                                          |
+| :--------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Content Accuracy & Depth** | Poster content is highly accurate, insightful, directly relevant to the theme, and demonstrates thorough research/understanding.            | Poster content is mostly accurate and relevant, showing adequate to good research/understanding of the theme, though may lack some depth/nuance. | Poster content has significant inaccuracies, lacks relevance, is superficial, or shows limited/minimal research/understanding.                     |
+| **Poster Design & Clarity**  | Poster is exceptionally well-organized, visually engaging, clear, and professional; effectively integrates text and graphics to convey message. | Poster organization and visual appeal are adequate to good; generally clear, with text/graphics used effectively, minor issues possible.       | Poster is poorly organized, cluttered, unclear, or unprofessional; text/graphics are ineffective, difficult to understand, minimal, or irrelevant. |
+| **Oral Explanation Clarity** | Explanation is exceptionally clear, concise, engaging, and demonstrates full command of the topic; delivered fluently and accurately in Spanish. | Explanation is adequately to mostly clear and concise; demonstrates basic to good command of the topic; delivered with adequate fluency/accuracy. | Explanation is often unclear, rambling, inaccurate, or incomplete; demonstrates limited/little command; frequent errors impede comprehension or make it incomprehensible. |
+| **Response to Questions**    | Responds thoughtfully, accurately, and confidently to questions in Spanish, demonstrating deep understanding.                               | Responds adequately to appropriately to questions in Spanish, demonstrating basic to good understanding (answers may lack depth/clarity).        | Struggles to respond or unable to respond effectively; answers inaccurate, incomplete, irrelevant, rely heavily on English, or show limited/little understanding. |
+
+## References
+

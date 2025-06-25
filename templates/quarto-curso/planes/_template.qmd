@@ -1,0 +1,50 @@
+---
+title: "Add title here"
+description: "Add description here"
+categories: []
+date: 2025-08-25
+---
+
+## {{< fa bullseye >}} Objetivos
+
+::: {.plan}
+- add objectives here
+- ...
+- ...
+
+:::
+
+## {{< fa baseball-bat-ball >}} Materiales
+
+::: {layout-ncol=2 .plan}
+
+#### Antes de clase
+
+- add materials for before class here
+
+#### Después de clase
+
+- add materials for after class here
+
+:::
+
+## {{< fa person-running >}} Actividades
+
+::: {layout-ncol=2 .plan}
+
+#### Antes de clase
+
+- add activities for before class here
+
+#### En clase
+
+- add materials and/or exercises for in class here
+
+:::
+
+## {{< fa medal >}} Aplicaciones
+
+
+- Add upcoming evaluations and assessments here
+
+

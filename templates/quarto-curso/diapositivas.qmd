@@ -1,0 +1,19 @@
+---
+title: "{{< fa chalkboard-user >}} Diapositivas"
+listing:
+  id: diapositivas-listing
+  contents: diapositivas/*.qmd
+  type: default
+  sort: "date"
+  sort-ui: false
+  filter-ui: false
+  categories: numbered
+  fields: [image, title, categories, date]
+page-layout: full
+title-block-banner: false
+---
+
+Las diapositivas de las clases se encuentran a continuación:
+
+::: {#diapositivas-listing}
+:::

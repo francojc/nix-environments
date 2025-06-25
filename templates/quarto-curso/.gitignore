@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# R
+R/
+
+# Quarto
+/.quarto/
+_site/
+_freeze/
+*_cache/
+*_files/
+
+# Revealjs
+site_libs/
+
+# Misc
+.direnv/
+.envrc
+_source/

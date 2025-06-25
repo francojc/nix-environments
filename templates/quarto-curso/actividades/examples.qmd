@@ -1,0 +1,122 @@
+---
+title: "Ejemplos de actividades"
+subtitle: "Webexercises"
+categories: [ejemplos, webexercises]
+date: 2025-04-12
+---
+
+## Resumen
+
+Vamos a ver si a puedo trabajar con el paquete `webexercises` para crear ejercicios interactivos en Quarto.
+
+Tengo pensado incluir exercicios para los estudiantes de la clase de español 309. Existen ejercicios de gramática, vocabulario y cultura del libro de texto, pero estos serían ejercicios de repaso designados para mí.
+
+Aquí en lo que sigue proveo unos ejemplos típicos de ejercicios que se pueden crear con el paquete `webexercises`.
+
+## Ejemplos
+
+### Fill-in-the-blank
+
+::: {.webex-check .webex-box}
+En la siguiente frase, completa el espacio en blanco con el artículo definido o indefinido correcto (masculino o femenino) según corresponda:
+
+La profesora entra en ___ aula para empezar ___ clase.
+
+- La profesora entra en `r fitb(c("el"), ignore_case = TRUE, width = 4)` aula para empezar `r fitb(c("la", "una"), ignore_case = TRUE, width = 4)` clase.
+:::
+
+### Gramática
+
+::: {.webex-check .webex-box}
+**Concordancia de adjetivos**
+Elige la forma correcta del adjetivo para completar la frase:
+
+La casa es `r mcq(c("rojo", answer = "roja", "rojos", "rojas"))`.
+:::
+
+::: {.webex-check .webex-box}
+**Verbos en presente**
+Completa la frase con la forma correcta del verbo entre paréntesis:
+
+Yo `r fitb("hablo", ignore_case = TRUE)` (hablar) español todos los días.
+:::
+
+::: {.webex-check .webex-box}
+**Ser vs. Estar**
+Indica si se debe usar "ser" o "estar":
+
+Madrid `r mcq(c(answer = "es", "está"))` la capital de España.
+:::
+
+::: {.webex-check .webex-box}
+**Pretérito vs. Imperfecto**
+Elige el tiempo verbal correcto:
+
+Cuando era niño, siempre `r mcq(c("fui", answer = "iba"))` al parque los domingos.
+:::
+
+### Vocabulario
+
+::: {.webex-check .webex-box}
+**Sinónimos**
+Escribe un sinónimo de "feliz":
+
+`r fitb(c("contento", "alegre"), ignore_case = TRUE)`
+:::
+
+::: {.webex-check .webex-box}
+**Traducción**
+¿Cómo se dice "library" en español?
+
+`r fitb("biblioteca", ignore_case = TRUE)`
+:::
+
+::: {.webex-check .webex-box}
+**Selección de vocabulario**
+¿Cuál de las siguientes palabras NO es una fruta?
+
+`r mcq(c("manzana", "plátano", answer = "zanahoria", "naranja"))`
+:::
+
+### Cultura
+
+::: {.webex-check .webex-box}
+**Geografía**
+¿Cuál es la capital de Argentina?
+
+`r fitb("Buenos Aires", ignore_case = TRUE)`
+:::
+
+::: {.webex-check .webex-box}
+**Fiestas**
+¿En qué mes se celebra el Día de los Muertos en México?
+
+`r mcq(c("septiembre", "diciembre", answer = "noviembre", "octubre"))`
+:::
+
+::: {.webex-check .webex-box}
+**Personajes famosos**
+¿Quién escribió "Cien años de soledad"?
+
+`r fitb("Gabriel García Márquez", ignore_case = TRUE)`
+:::
+
+### Ejercicios combinados y secciones ocultas
+
+::: {.webex-check .webex-box}
+Completa:
+- El Quijote fue escrito por `r fitb("Miguel de Cervantes", ignore_case = TRUE)`.
+- La Sagrada Familia está en `r fitb("Barcelona", ignore_case = TRUE)`.
+:::
+
+::: {.webex-check .webex-box}
+Ejemplo con pista oculta:
+
+`r hide("¿Necesitas una pista?")`
+Es una ciudad en España famosa por Gaudí.
+`r unhide()`
+:::
+
+## Outstanding questions
+
+I wonder if there is a way to score this exercise. I think it would be nice to have a score at the end of the exercise. I also wonder if there is a way to include hints or explanations for each question.

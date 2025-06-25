@@ -1,0 +1,83 @@
+---
+title: "{{< fa calendar-check >}} Horario"
+execute:
+  freeze: false
+  always: true
+---
+
+> **Nota:** Este horario es **tentativo** y está sujeto a cambios. 
+
+```{r}
+#| label: setup
+#| echo: false
+
+library(googlesheets4)
+library(gt)
+library(tidyverse)
+gs4_deauth()
+
+sheet <-
+  read_sheet("https://docs.google.com/spreadsheets/d/1t0b9XZuFOn76nPR9o0-kCHO6MFdO8iRcObrtl1-03hY/edit?usp=sharing")
+```
+
+
+```{r}
+#| label: schedule
+#| echo: false
+
+sheet |>
+  mutate(
+    Target = ifelse(is.na(Target), "", Target),
+    Día = ifelse(is.na(Día), "", Día),
+    Fecha = as.Date(Fecha, format = "%d/%m/%Y"), # Ensure Fecha is plain text in the Google Sheets doc.
+  ) |>
+  gt(rowname_col = "Target", groupname_col = "Módulo") |>
+  cols_width(
+    Target ~ pct(5),
+    Día ~ pct(5),
+    Fecha ~ pct(9),
+    Enfoque ~ pct(40),
+    Plan ~ pct(8),
+    Diapositivas ~ pct(9),
+    Coloquios ~ pct(9),
+    Pósteres ~ pct(9),
+  ) |>
+  text_transform(cells_body(columns = c(Plan)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("list-check", fill_opacity = 0.1),
+        glue::glue("<a href='{x}' target='_blank'>{fontawesome::fa('list-check')}</a>")
+      )
+    }
+  ) |>
+  text_transform(cells_body(columns = c(Diapositivas)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("person-chalkboard", fill_opacity = 0.1),
+        glue::glue("<a href='{x}' target='_blank'>{fontawesome::fa('person-chalkboard')}</a>")
+      )
+    }
+  ) |>
+  text_transform(cells_body(columns = c(Coloquios)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("chalkboard-user", fill_opacity = 0.1),
+        glue::glue("<a href='{x}' target='_blank'>{fontawesome::fa('chalkboard-user')}</a>")
+      )
+    }
+  ) |>
+  text_transform(cells_body(columns = c(Pósteres)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("clipboard-user", fill_opacity = 0.1),
+        glue::glue("<a href='{x}' target='_blank'>{fontawesome::fa('clipboard-user')}</a>")
+      )
+    }
+  ) |> 
+  fmt_date(Fecha, date_style = "day_m", locale = "es") |>
+  sub_missing(columns = Fecha, missing_text = "")
+``` 
+
+### Leyenda 
+
+🆅 = Vocabulario \
+🆂 = Sintaxis \
+🅐 = Aplicación \
+🅁 = Repaso \
+🄴 = Examen

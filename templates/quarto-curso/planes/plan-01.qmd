@@ -1,0 +1,65 @@
+---
+title: "Descripciones"
+description: |
+  ¡Bienvenidos! En esta primera clase, nos conoceremos y nos prepararemos para el éxito en el curso. Para aprovechar al máximo la clase, empezaremos con el primer capítulo.
+categories: [programa, materiales, ser/estar, adjetivos, concordancia, artículos]
+date: 2025-08-25
+image: ./images/stick-realistic.png
+---
+
+## {{< fa bullseye >}} Objetivos
+
+::: {.plan}
+
+- Presentar el programa y los materiales
+- Prepararse para el éxito en el curso
+- Conocernos y describirnos
+
+:::
+
+## {{< fa baseball-bat-ball >}} Materiales
+
+::: {layout-ncol=2 .plan}
+
+#### Antes de clase
+
+- Revisar [el programa del curso](../index.html)
+- **Punto y aparte**, capítulo 1
+  - Vocabulario del tema
+    - Cualidades, percepciones, impresiones y otras descripciones
+  - Explicación gramatical:\
+Revisar las explicaciones
+    - **A** La descripción: (A) Agreement, (B) Ser/Estar, (C) Past participles used as adjectives, y (D) Uses and omissions of articles.
+
+#### Después de clase
+
+- [Diapositivas](../diapositivas/diap-01.html)
+- [ED 1: Descripción]({{< var canvas.eval_01 >}})
+
+## {{< fa person-running >}} Actividades
+
+::: {layout-ncol=2 .plan}
+
+#### Antes de clase
+
+- Completar la [encuesta de bienvenida]({{< var canvas.ice_01 >}})
+- Comprar el libro de texto "Punto y Aparte" (6ta edición) y el cuaderno Lecturas Literarias.
+- **Punto y aparte**
+  - Explicación gramatical: **A**\
+  ¡A practicar!\
+  *Pista: Hay una clave de respuestas para todas las actividades en el libro de texto en el apéndice 1.*
+    (A) Agreement
+    (B) Ser/Estar
+    (C) Past participles used as adjectives
+    (D) Uses and omissions of articles
+
+#### En clase
+
+- Llegar puntualmente y preparado
+
+:::
+
+## {{< fa medal >}} Aplicaciones
+
+- [Entrevista individual I]({{< var canvas.entrevista_01 >}})
+

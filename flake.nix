@@ -23,7 +23,11 @@
       };
       quarto-course = {
         description = "A Quarto course template";
-        path = ./templates/r-quarto;
+        path = ./templates/quarto-course;
+      };
+      quarto-curso = {
+        description = "Una plantilla de curso en Quarto";
+        path = ./templates/quarto-curso;
       };
     };
   in
