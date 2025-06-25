@@ -35,7 +35,7 @@
       pkgs = import nixpkgs {inherit system;};
     in {
       # Define a default development shell for the root of the repository
-      devShell = pkgs.mkShell {
+      devShells.default = pkgs.mkShell {
         packages = with pkgs; [
           alejandra
           git
