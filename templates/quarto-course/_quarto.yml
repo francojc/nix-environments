@@ -1,0 +1,30 @@
+project:
+  type: website
+  preview:
+    port: 4321
+execute:
+  freeze: auto
+  message: false
+  warning: false
+website:
+  title: '[Course Title]'
+  site-url: https://[username].github.io/[repo-name]/
+  description: '[Course description]'
+  navbar:
+    right:
+      - index.qmd
+      - schedule.qmd
+      - slides.qmd
+      - guides.qmd
+      - news.qmd
+      - icon: rss
+        href: news.xml
+    tools:
+      - icon: github
+        href: https://github.com/[username]/[repo-name]/
+format:
+  html:
+    theme: flatly
+    css: ./assets/css/styles.css
+    toc: true
+    toc-depth: 3

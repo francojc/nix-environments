@@ -1,0 +1,79 @@
+---
+title: "{{< fa handshake >}} Syllabus"
+subtitle: "[Full course title and code]"
+date: 2025-01-15
+language:
+  title-block-published: "Updated"
+---
+
+## Instructor
+
+![]({{< var instructor.photo >}}){style="float: right; margin-right: 1em;" width="150px"}
+
+Name: {{< var instructor.name >}} \
+Pronouns: {{< var instructor.pronouns >}} \
+Email: {{< var instructor.email >}} \
+Office: {{< var instructor.office >}} \
+Appointments: <a href='{{< var instructor.appointment_url >}}' target="_blank">{{< fa calendar >}}</a>
+
+## Course
+
+### Description
+
+Add course description here...
+
+
+### Learning outcomes {#learning-outcomes}
+
+By the end of this course you will be able to:
+
+Add learning outcomes here...
+
+### Resources
+
+- Add resources here...
+
+## Approach
+
+### Building community
+
+Building a community of learners is at the heart of enriching courses. It is key to keep in mind that each one of us is intrinsically motivated to know more about the world --that's why we are all here! The experience of learning, however solitary it may seem at times, is best achieved in collaboration with others on their educational journey. Each of us brings important and valuable life experiences and academic knowledge and interests that are vital elements to making our class exceptional. Don't check yourself at the classroom door! Engage, reflect, share, and discuss. Take risks, ask questions, and let's embark on this intellectual journey together.
+
+### Transparency and responsibility
+
+In my view, any course is not an island to itself. In an educational journey, a course provides you opportunities to grow both in learning content and the meta-process of learning how to learn. I will approach this course in precisely this way: I am more concerned with process than product. In this course (and in all courses) the material will prove challenging at times. This is a good thing. You will learn a lot, but you likely will not “learn it all” --I'm still learning!  Learning is as much about success as it is trial and error. I will highly value trial as it provides an opportunity to err and learn. As part of this process, I will ask you to reflect on your process --when you seek support and how you find it. Your responsibility is to own your learning, collaborate with peers, seek and discover, and contribute to the learning of your peers (as well as mine). My responsibility is to provide the scaffolding and guidance to get you started on (or rather, continue) your journey.
+
+### Diversity & inclusion
+
+I am committed to developing and supporting an ongoing environment that serves students from all diverse backgrounds and where diversity is viewed as a resource, strength, and benefit to our learning community. It is my goal to present materials and provide options for activities that are respectful to gender, sexuality, disability, age, socioeconomic status, ethnicity, race, and culture. Despite my best efforts, there may still be ways to improve the effectiveness of this course for you personally or for other students or student groups. Your suggestions for improvement are encouraged and appreciated.
+
+### Flexibility
+
+I start this semester by acknowledging the social, political, and medical challenges that all of us face. I recognize that some of you are more impacted than others and that many of you may be learning from a place of anxiety, uncertainty, and trauma. I will stay cognizant of this throughout the semester, especially as I make teaching decisions. If there are ways I can make your learning experience better, please let me know.
+
+## Learning program
+
+The course is grouped into ...
+
+## Assessment
+
+Add assessment details here...
+
+
+### Module-based components
+
+Add module-based components here...
+
+### Project components
+
+Add project components here...
+
+## Policies
+
+### Professionalism
+
+We abide by the university honor system in this course; academic dishonesty is not tolerated and will be handled according to university policies.
+
+### Accommodations
+
+[University Name] provides reasonable accommodations to students with disabilities. If you are in need of an accommodation, then please contact me privately as early in the term as possible. Retroactive accommodations will not be provided. Students requiring accommodations must also consult the [Disability Services Office] ([Building/Room], [Phone Number]).

@@ -1,0 +1,19 @@
+---
+title: "{{< fa chalkboard-user >}} Slides"
+listing:
+  id: slide-listing
+  contents: slides/*.qmd
+  type: default
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: false
+  categories: numbered
+  fields: [image, title, categories, date]
+page-layout: full
+title-block-banner: false
+---
+
+The slide decks used in class are available here and are updated as the course progresses.
+
+::: {#slide-listing}
+:::

@@ -1,0 +1,22 @@
+author: Sarah McOwen
+instructor:
+  name: Dr. Sarah McOwen
+  pronouns: she/her/hers
+  name_short: Sarah
+  title: Associate Professor of [Department]
+  email: instructor@university.edu
+  office: '[Building] [Room Number]'
+  appointment_url: 'https://cal.com/instructor/meeting'
+  photo: assets/instructor-photo.png
+  github: instructor-github
+course:
+  title: '[Course Title]'
+  sticker: assets/course-sticker.png
+  number: '[DEPT XXX]'
+  semester: '[Semester]'
+  year: [YEAR]
+  institute: '[University Name]'
+  meeting_time: '[Days] [Time]'
+  meeting_location: '[Building] [Room]'
+  site: https://[username].github.io/[repo-name]/
+  github: https://github.com/[username]/[repo-name]/

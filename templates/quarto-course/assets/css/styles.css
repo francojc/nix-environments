@@ -1,0 +1,8 @@
+/* css styles */
+
+.halfsize {
+  width: 50%;
+  float: right;
+  margin-left: 1.5em;
+  margin-top: .5em;
+}

@@ -1,0 +1,19 @@
+---
+title: "{{< fa bullhorn >}} News"
+listing:
+  id: news-listing
+  contents: news
+  type: default
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: false
+  categories: unnumbered
+  fields: [image, title, categories, date, description]
+  # feed: true
+page-layout: full
+title-block-banner: false
+---
+
+::: {#news-listing}
+:::
+

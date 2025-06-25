@@ -1,0 +1,14 @@
+---
+title: "{{< fa wrench >}} Guides"
+listing:
+  id: guide-listing
+  contents: guides
+  type: grid
+  filter-ui: true
+  sort: "date"
+  categories: unnumbered
+  fields: [image, title, description, categories]
+page-layout: full
+title-block-banner: false
+---
+

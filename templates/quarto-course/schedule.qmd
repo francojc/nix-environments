@@ -1,0 +1,71 @@
+---
+title: "{{< fa calendar-check >}} Schedule"
+execute:
+  always: true
+---
+
+> **Note:** This schedule is tentative. The syllabus will be updated as the course develops. If you have any questions, please contact the instructor.
+
+```{r}
+#| label: setup
+#| echo: false
+
+library(googlesheets4)
+library(gt)
+library(tidyverse)
+gs4_deauth()
+
+sheet <-
+  read_sheet("https://docs.google.com/spreadsheets/d/1aiPWIESWSkqGQrSksIWGgEniF6Mc4QPnWuwhNvqsH58/edit?usp=sharing")
+```
+
+```{r}
+#| label: schedule
+#| echo: false
+
+sheet |>
+  mutate(
+    Target = ifelse(is.na(Target), "", Target),
+    Day = ifelse(is.na(Day), "", Day),
+    Date = as.Date(Date),
+    Lessons = ifelse(is.na(Lessons), "", Lessons)
+  ) |>
+  gt(rowname_col = "Target", groupname_col = "Module") |>
+  text_transform(cells_body(columns = c(Reading)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("book", fill_opacity = 0.1),
+        glue::glue("<a href = {x} target='_blank'>{fontawesome::fa('book')}</a>")
+      )
+    }
+  ) |>
+  text_transform(cells_body(columns = c(Slides)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("chalkboard-user", fill_opacity = 0.1),
+        glue::glue("<a href = {x} target='_blank'>{fontawesome::fa('chalkboard-user')}</a>")
+      )
+    }
+  ) |>
+  text_transform(cells_body(columns = c(Labs)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("laptop", fill_opacity = 0.1),
+        glue::glue("<a href = {x} target='_blank'>{fontawesome::fa('laptop')}</a>")
+      )
+    }
+  ) |>
+  text_transform(cells_body(columns = c(Project)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("book-bookmark", fill_opacity = 0.1),
+        glue::glue("<a href = {x} target='_blank'>{fontawesome::fa('book-bookmark')}</a>")
+      )
+    }
+  ) |>
+  text_transform(cells_body(columns = c(Assessment)),
+    fn = function(x) {
+      ifelse(is.na(x), fontawesome::fa("list-check", fill_opacity = 0.1),
+        glue::glue("<a href = {x} target='_blank'>{fontawesome::fa('list-check')}</a>")
+      )
+    }
+  ) |>
+  fmt_date(Date, date_style = 30) |>
+  sub_missing(columns = Date, missing_text = "")
+```

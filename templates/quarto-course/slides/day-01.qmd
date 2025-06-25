@@ -1,0 +1,35 @@
+---
+title: "Introductions"
+institute: "[University Name]"
+subtitle: "Course goals, the approach, and the resources"
+categories: [syllabus, resources, guides]
+date: 2024-01-17
+---
+
+# Hello!
+
+- First slide
+
+# Overview
+
+
+::: {.column width="50%"}
+- Course goals
+- Approach
+- Resource setup
+- Getting help
+:::
+
+
+## Course goals
+
+- Goals here ...
+
+# Approach
+
+# Resource setup
+
+
+# Questions?
+
+- Ask questions here ...

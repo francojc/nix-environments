@@ -1,0 +1,24 @@
+---
+title: "Example post"
+date: "2024-01-18"
+categories: [news, tech, guides]
+---
+
+This is a post to provide an example for using the posts feature in Quarto for the class.
+
+::: {.aside}
+This is an aside that can be used to provide additional information or context for the post.
+:::
+
+## Subsection
+
+- This is a list item
+- This is another list item
+
+## Another subsection
+
+- Create a [link](https://web.hypothes.is/start/)
+
+<!-- Animated gifs do not upload to Google Drive -->
+
+<!-- {{< video src="./github-clone-repo.webm" >}} -->
