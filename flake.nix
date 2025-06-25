@@ -49,6 +49,7 @@
           echo "- default: An R programming environment template"
           echo "- r-quarto: An R programming environment with Quarto website scaffolding"
           echo "- quarto-course: A Quarto course template"
+          echo "- quarto-curso: Una plantilla de curso en Quarto"
           echo "To create a new project from a template, navigate to the desired directory and run 'nix flake init -t github:francojc/nix-environments#template-name'"
         '';
       };
