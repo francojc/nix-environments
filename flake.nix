@@ -21,6 +21,10 @@
         description = "An R programming environment with Quarto website scaffolding";
         path = ./templates/r-quarto;
       };
+      quarto-course = {
+        description = "A Quarto course template";
+        path = ./templates/r-quarto;
+      };
     };
   in
     flake-utils.lib.eachDefaultSystem (system: let
@@ -40,6 +44,7 @@
           echo "Available templates:"
           echo "- default: An R programming environment template"
           echo "- r-quarto: An R programming environment with Quarto website scaffolding"
+          echo "- quarto-course: A Quarto course template"
           echo "To create a new project from a template, navigate to the desired directory and run 'nix flake init -t github:francojc/nix-environments#template-name'"
         '';
       };
