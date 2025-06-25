@@ -52,11 +52,8 @@ Actualiza `diapositivas/bibliography.bib` con tus referencias (si está vacío, 
 # Vista previa del sitio
 quarto preview
 
-# Renderizar sitio
+# Crear sitio estático
 quarto render
-
-# Formatear código
-alejandra .
 ```
 
 ## Despliegue
@@ -64,7 +61,7 @@ alejandra .
 La plantilla está configurada para despliegue en GitHub Pages. Actualiza la URL del sitio en `_quarto.yml` para que coincida con tu repositorio.
 
 ```bash
-# Añadir, commit y push de cambios
+# Add, commit y push los cambios
 git add --all
 git commit -m "Deploy site"
 git push origin main
@@ -73,7 +70,7 @@ git push origin main
 quarto publish gh-pages
 ```
 
-Esto creará una rama `gh-pages` con el sitio renderizado, que se puede acceder en `https://[username].github.io/[repo-name]` después de habilitar GitHub Pages en la configuración de tu repositorio y apuntarlo a la rama `gh-pages`.
+Esto creará una rama `gh-pages` con el sitio renderizado, al que se puede acceder en `https://[username].github.io/[repo-name]` después de habilitar GitHub Pages en la configuración de tu repositorio y dirigirlo a la rama `gh-pages`.
 
 ## Estructura del Curso
 
@@ -85,3 +82,4 @@ La plantilla incluye:
 - **Diapositivas** (`diapositivas/`) - Presentaciones con tema personalizado
 - **Actividades** (`actividades/`) - Ejercicios y tareas del curso
 - **Integración Canvas** - Enlaces configurables a tu LMS
+
